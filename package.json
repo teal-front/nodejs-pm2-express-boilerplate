@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-pm2-express-scaffold",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha ./test/index.js"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "amqp": "^0.2.4",
+    "body-parser": "^1.12.3",
+    "connect-redis": "^2.3.0",
+    "cookie-parser": "^1.4.1",
+    "cookie-session": "^1.1.0",
+    "ejs": "^2.3.1",
+    "express": "^4.12.2",
+    "express-ejs-layouts": "^2.1.0",
+    "express-partials": "^0.3.0",
+    "express-session": "^1.11.1",
+    "ioredis": "^3.1.1",
+    "multer": "^0.1.8",
+    "fastdfs-client": "^0.0.8",
+    "ua-parser-js": "^0.7.13"
+  }
+}

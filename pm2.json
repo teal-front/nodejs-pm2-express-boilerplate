@@ -1,0 +1,21 @@
+{
+  "apps": [
+    {
+      "name": "demo",
+      "cwd": "/",
+      "script": "app.js",
+      "instances": "max",
+      "exec_mode": "cluster_mode",
+      "max_memory_restart": "500M",
+      "max_restarts": 5,
+      "error_file" : "/var/log/pm2/demo/logs/err.log",
+      "log_file"   : "/var/log/pm2/demo/logs/out.log",
+      "out_file": "/dev/null",
+      "log_date_format": "YYYY-MM-DD HH:mm:ss Z",
+      "merge_logs": true,
+      "args": [
+          "--color"
+      ]
+    }
+  ]
+}
