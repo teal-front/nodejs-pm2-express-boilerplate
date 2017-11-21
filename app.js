@@ -24,6 +24,7 @@ global.ROOT = __dirname;
 
 app.set('views', ['./views']);
 app.set('view engine', 'ejs');
+app.set('layout', './views/layout');
 
 //middlewares
 const session = require('express-session');
