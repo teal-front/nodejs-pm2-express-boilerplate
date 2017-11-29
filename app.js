@@ -29,6 +29,8 @@ app.set('layout', './views/layout');
 //middlewares
 const session = require('express-session');
 
+app.set('x-powered-by', false); // close x-powered-by:express
+
 //布局母版中间件
 app.use(require('express-ejs-layouts'));
 // 用于简单表单 parsing application/x-www-form-urlencoded，比如一般文本提交
