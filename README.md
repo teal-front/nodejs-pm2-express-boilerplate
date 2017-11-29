@@ -1,7 +1,7 @@
 ### summary
 nodejs站点脚手架，使用pm2&express搭建而成
 
-主要用到的`redis`、`rabbitma`、`fastdfs`。
+主要用到的`redis`、`rabbitmq`、`fastdfs`。
 
 ### todo
 - [ ] ./definitions的数据结构不完整，name很容易冲突
