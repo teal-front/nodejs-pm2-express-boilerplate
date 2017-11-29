@@ -51,6 +51,7 @@ app.use(session({
 	cookie: config.expressSession.cookie
 }));
 
+require('./lib/channel-api').init();
 
 //设置静态文件路径
 app.use('/static', express.static('./static'));
