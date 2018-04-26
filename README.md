@@ -1,5 +1,5 @@
 ### summary
-nodejs站点脚手架，使用pm2&express搭建而成
+nodejs站点样板文件，使用pm2&express搭建而成
 
 主要用到的`redis`、`rabbitmq`、`fastdfs`。
 
